@@ -1,22 +1,68 @@
 body {
 	background-image: url("../images/restaurant.png");
+	width: auto;
+	height: auto;
 }
-h1 {
-	background-color: orange;
+.container {
+	margin-left: -10px !important;
+}
+.col-md-5 {
+	margin-left: 10px;
+	color:rgb(84,202,206);
+}
+pre {
+	background-color:rgb(252,229,207) !important;
+	color:seagreen !important;
+	width: 600px !important;
+}
+
+#titleofgame {
+	background-color: rgb(197,114,45) ;
 	color: white;
 	width: 350px;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	text-align: center;
+	margin-left: 10px;
+}
+.randomNum {
+	padding: 40px 40px;
+	background-color: rgb(89,200,130);
+	margin-left:25px !important;
+	width: 250px !important;
 
 }
-pre {
-	background-color: rgb(252,229,206);
-	color: rgb(84,202,134);
-	width: 500px;
-	padding-right: 50px;
-	padding-left: 5px;
-	padding-top: 25px;
-	padding-bottom: 75px;
-	float: left;
+.winslosses {
+	padding: 30px 40px;
+	background-color: cyan;
+	width: 90px !important;
+	margin-left: 10px !important;
+	
+}
+.col-sm-1 {
+	margin: 10px ;
+}
+.totalScore {
+	background-color: rgb(0,128,128)!important;
+	width: 250px !important;
+	margin-left: 25px;
+	color: white;
+}
+.totalNum {
+	background-color: rgb(0,128,128)!important;
+	width: 250px !important;
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-bottom:30px;
+	padding: 40px;
+}
+.bluegem .yellowgem .greengem {
+	padding: -10px !important;
+}
+img {
+	margin-left: 10px !important;
+	margin-top:  10px !important;
+	margin-bottom:  10px !important;
+
+
 }

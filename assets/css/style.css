@@ -34,12 +34,20 @@ pre {
 	width: 250px !important;
 
 }
-.winslosses {
+.wins {
 	padding: 30px 40px;
 	background-color: cyan;
-	width: 90px !important;
+	width: 120px !important;
+	height: 100px !important;
 	margin-left: 10px !important;
-	
+}
+.losses {
+	padding: 30px 40px;
+	background-color: cyan;
+	width: 120px !important;
+	/*height: 50px !important;*/
+	margin-left: -5px !important;
+
 }
 .col-sm-1 {
 	margin: 10px ;
@@ -53,10 +61,12 @@ pre {
 .totalNum {
 	background-color: rgb(0,128,128)!important;
 	width: 250px !important;
+	height: 120px !important;
 	margin-left: 25px;
 	margin-top: 10px;
 	margin-bottom:30px;
 	padding: 40px;
+	font-size: larger !important; 
 }
 .bluegem .yellowgem .greengem {
 	padding: -10px !important;

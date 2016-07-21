@@ -1,5 +1,7 @@
+
 body {
 	background-image: url("../images/restaurant.png");
+	background-color: rgb(121,206,198)  !important;
 	width: auto;
 	height: auto;
 }
